@@ -51,7 +51,7 @@ public class ScrollingActivity extends AppCompatActivity {
         filename = ((EditText) findViewById(R.id.analysisname));
         resultedit = ((EditText) findViewById(R.id.analysisresultedit));
         dialog = new ProgressDialog(ScrollingActivity.this);
-        dialog.setMessage("分析中......");
+        dialog.setMessage("分析中......v1");
     }
 
     ProgressDialog dialog;
